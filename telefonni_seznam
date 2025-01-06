@@ -1,0 +1,13 @@
+from dataclasses import dataclass
+
+@dataclass
+class Clovek:
+    jmeno: str
+    telefonni_cislo: int
+
+
+class Telseznam:
+    def __init__(self,seznam,mapa) -> None:
+        self.seznam=[]
+        self.mapa={}
+
